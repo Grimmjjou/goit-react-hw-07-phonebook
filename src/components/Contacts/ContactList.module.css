@@ -1,0 +1,20 @@
+.contactsList {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.contact {
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.contact button {
+  margin-left: 30px;
+}
+
+.contact audio {
+  height: '80';
+  width: '80';
+  border-radius: 9;
+  color: green;
+}

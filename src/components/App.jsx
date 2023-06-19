@@ -1,16 +1,15 @@
-export const App = () => {
+import ContactForm from './ContactForm/ContactForm';
+import { ContactList } from './Contacts/ContactList';
+import { Filter } from './Filter/Filter';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+export default function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <ContactForm />
+      <Filter />
+      <ContactList />
+      <ToastContainer position="top-center" />
+    </>
   );
-};
+}
